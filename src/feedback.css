@@ -1,0 +1,35 @@
+.feedbackcontainer {
+  width: 100%;
+  margin-left: 2.3em;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 23%));
+}
+.feedbackcard {
+  padding: 2em;
+  width: 100%;
+  margin-bottom: 1em;
+  position: relative;
+  margin-top: 1%;
+  border-radius: 5px;
+  box-shadow: -1px 1px 10px 0.6px rgb(150, 146, 146, 0.3);
+}
+.feedbackcards {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
+}
+.desc {
+  padding-bottom: 2.3em;
+}
+.studinfo {
+  display: flex;
+  gap: 20px;
+}
+.gray {
+  color: gray;
+  font-size: small;
+}
+.personinfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}

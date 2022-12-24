@@ -1,0 +1,102 @@
+.startcontainer {
+  width: 100%;
+  min-height: 400px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  margin-bottom: 4em;
+}
+.startleft {
+  background-color: rgb(243, 243, 83, 0.9);
+}
+.startright {
+  padding: 1em;
+  background-image: url("https://media.istockphoto.com/id/1319763830/photo/portrait-of-smiling-mixed-race-woman-looking-at-camera.jpg?s=612x612&w=0&k=20&c=L0d04sc89UuLW0G80UCu4egl0tQwyl8PLKsIZotbP_U=");
+  opacity: 0.7;
+  background-position: center;
+  background-repeat: repeat;
+
+  background-color: rgb(236, 231, 231, 0.6);
+}
+.startnav {
+  display: flex;
+  gap: 1.4em;
+  justify-content: center;
+  padding: 1em;
+  font-weight: 800;
+  font-size: 13px;
+}
+.quotation {
+  padding: 4em;
+  display: flex;
+  gap: 10px;
+}
+.big {
+  font-weight: 550;
+}
+.startbold {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+}
+.startbrand {
+  width: 2em;
+  height: 2em;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.starticon {
+  width: 20px;
+  height: 20px;
+}
+.middle {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1em;
+  z-index: 33;
+  background-color: white;
+  width: 65%;
+  min-height: 50px;
+  top: 60%;
+  left: 50%;
+  border-top-right-radius: 1.5em;
+  border-bottom-right-radius: 1.5em;
+  transform: translate(-50%, -50%);
+}
+.startdown {
+  width: 0.6em;
+  height: 0.6em;
+  margin-right: 0.5em;
+}
+.chosecountry,
+.chosedegree,
+.chosearea,
+.chosecourse {
+  position: relative;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  padding-left: 1em;
+}
+input {
+  border: none;
+  outline-width: none;
+}
+.startinput {
+  padding: 0.3em;
+}
+
+.starticons {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  right: 10px;
+}

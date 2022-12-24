@@ -1,0 +1,124 @@
+.contactcontainer {
+  box-sizing: border-box;
+  margin-top: 3em;
+  width: 100%;
+  position: relative;
+}
+.or {
+  color: white;
+}
+.nav {
+  position: relative;
+  /* width: 100%; */
+  min-height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 0.1em;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+}
+.contacticon {
+  width: 1em;
+  height: 1em;
+  margin: 1em;
+}
+.white {
+  color: white;
+  margin: 1em;
+}
+.icons {
+  display: flex;
+  gap: 1em;
+  /* justify-content: center; */
+}
+.btns {
+  display: flex;
+  height: 30px;
+  /* gap: ; */
+
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 30%;
+}
+button {
+  transition: all 0.3s;
+  background-color: rgb(128, 128, 128, 0.9);
+}
+button:hover {
+  background-color: rgba(197, 189, 189, 0.9);
+}
+.or {
+  margin: 10px;
+}
+.text {
+  padding: 0.5em;
+  border-radius: 5px;
+}
+.email,
+.phone {
+  display: flex;
+  align-items: center;
+}
+.submit {
+  padding: 0.5em;
+  max-width: 40%;
+  border-radius: 5px;
+}
+.get {
+  flex-wrap: 1;
+}
+.innerdetails {
+  display: flex;
+  position: relative;
+}
+.leftpart {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2em;
+  padding: 3em;
+  background-color: rgb(243, 243, 83, 0.9);
+}
+.address {
+  flex-wrap: wrap;
+}
+.phone {
+  display: flex;
+}
+.divid {
+  width: 0.4px;
+  height: 1em;
+  margin: 0 5px;
+  background-color: gray;
+}
+.rightpart {
+  position: relative;
+  display: flex;
+  /* flex: 100%; */
+  flex-wrap: wrap;
+  flex: 1 1 60%;
+  background-color: rgb(236, 231, 231, 0.6);
+}
+.links {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.head {
+  font-size: large;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .icons {
+    flex-direction: column;
+  }
+  .innerdetails {
+    flex-wrap: wrap;
+    /* height:50px; */
+  }
+}
